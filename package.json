@@ -1,0 +1,8 @@
+{
+	"name": "anonymous-slackbot",
+	"scripts": {
+		"package": "sam package --template-file template.yml --output-template-file package.yml --s3-bucket ken-lambdas",
+		"deploy": "sam deploy --template-file package.yml --stack-name ken-anonymous-slackbot --capabilities CAPABILITY_IAM"
+	},
+	"private": true
+}

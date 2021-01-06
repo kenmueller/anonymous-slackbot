@@ -1,7 +1,7 @@
 {
 	"name": "anonymous-slackbot",
 	"dependencies": {
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"decode-uri-component": "^0.2.0"
 	},
 	"private": true
